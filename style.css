@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    bottom: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F8F9FF;
+}
+
+a {
+    text-decoration: none;
+}
