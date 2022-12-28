@@ -11,3 +11,226 @@ body {
 a {
     text-decoration: none;
 }
+
+.center {
+    padding-left: calc(50% - 590px);
+    padding-right: calc(50% - 590px);
+}
+
+.top {
+    position: relative;
+    padding-bottom: 96px;
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-bottom: 74px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+}
+
+.header__logo {
+    height: 40px;
+}
+
+.header__links {
+    display: flex;
+    gap: 36px;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+
+.header__link:hover {
+    color: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #8794BA;
+}
+
+.header__button:hover {
+    color: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.header__button_sign-up {
+    height: 40px;
+    width: 161px;
+    padding: 10.5px 52px;
+    box-sizing: border-box;
+    border: 1px solid #465B95;
+    border-radius: 68px;
+    cursor: pointer;
+    background: none;
+}
+
+.header__button_sign-up:hover {
+    border: none;
+    background-color: #EF2A82;
+    box-shadow: 0px 18px 50px -15px #060F28;
+    transition: all 0.1s;
+}
+
+.header__button_sign-up:active {
+    transform: translate(1px, 1px);
+    transition: all 0.1s;
+}
+
+.top__content {
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+    overflow-x: clip;
+}
+
+.top__info {
+    min-width: 550px;
+    max-width: 550px;
+}
+
+.top__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.top__text {
+    margin-bottom: 49px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+}
+
+.top__info-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 238px;
+    height: 50px;
+    background: #EF2A82;
+    border: none;
+    border-radius: 68px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.top__info-btn:hover {
+    box-shadow: 0px 18px 50px -15px #060F28;
+    background: none;
+    border: 1px solid #465B95;
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+.top__info-btn:active {
+    transform: translate(1px, 1px);
+    transition: all 0.1s;
+}
+
+.top__screen {
+    position: relative;
+}
+
+.top__screen-front {
+    position: absolute;
+    width: 361px;
+    height: 246.68px;
+    left: -69px;
+    
+    top: 124px;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+}
+
+.top__screen-back {
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: repeat(3, 164px);
+    padding: 25px 32px 22px;
+    row-gap: 8px;
+    column-gap: 13px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+}
+
+.screen-back__img {
+    width: 100%;
+    height: 100%;
+}
+
+.top__rectangle_dark-blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: +17px;
+    background: #172755;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 13vw), 0 100%);
+    transform-origin: left bottom;
+    z-index: -3;
+    overflow: hidden;
+}
+
+.top__subtract_left {
+    position: absolute;
+    width: 660px;
+    height: 660px;
+    left: calc(50% - 660px/2 - 570px);
+    top: -261px;
+    z-index: -1;
+}
+
+.top__subtract_right {
+    position: absolute;
+    width: 1438px;
+    height: 1438px;
+    left: calc(50% - 1438px/2 + 439px);
+    top: -38px;
+    z-index: -1;
+}
+
+.subtract_color > path {
+    fill: #8794BA;
+    opacity: 0.07;
+}
+
+.top__rectangle_dark-pink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #EF2A82;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 13vw), 0 100%);
+    transform-origin: left bottom;
+    z-index: -4;
+}
