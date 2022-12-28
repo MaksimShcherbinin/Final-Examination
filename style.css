@@ -544,10 +544,6 @@ a {
     background-color: #F8F9FF;
 }
 
-.signup__logos {
-
-}
-
 .logos__title {
     width: 431px;
     font-weight: 700;
@@ -579,10 +575,6 @@ a {
     width: 144px;
     height: 0px;
     border: 1px solid #D6D6D6;
-}
-
-.logos {
-
 }
 
 .form__container {
@@ -691,10 +683,6 @@ a {
     height: 15px;
 }
 
-.rating__sign {
-
-}
-
 .rating__sign__label > .rating__star > path  {
     fill: #8989A2;
 }
@@ -734,4 +722,51 @@ a {
 .form__login-link:hover {
     color: #EF2A82;
     transition: all 0.1s;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 60px;
+    background-color: #1F2F5C;
+}
+
+.footer__logo:hover > svg > path {
+    fill: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 36px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8794BA;
+}
+
+.footer__link:hover {
+    color: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.socials__icon:hover > svg > path {
+    fill: #FFFFFF;
+    transition: all 0.2s;
 }
