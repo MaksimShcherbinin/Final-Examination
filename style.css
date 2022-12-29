@@ -968,7 +968,6 @@ a {
     
     .pricing {
         align-items: stretch;
-        position: relative;
     }
 
     .pricing::after {
@@ -1003,6 +1002,8 @@ a {
         padding-bottom: 53px;
         gap: 20px;
         overflow-x: scroll;
+        padding-left: calc(50% - 140px);
+        padding-right: calc(50% - 140px);
     }
     
     .price__item {
